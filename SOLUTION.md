@@ -33,6 +33,7 @@ ___________________________________________________________
 **Error Document:** --error-document error.html
 
 **Screenshot 2: Static Website Hosting Settings**
+
 ![Static Hosting Config](screenshots/02-static-hosting-config.png)
 ---
 
