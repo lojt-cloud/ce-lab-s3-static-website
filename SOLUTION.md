@@ -53,31 +53,32 @@ No
 N/A
 
 **Screenshot 3: Files Uploaded to S3**
-![Files in S3](screenshots/03-files-uploaded.png)
+<img width="1656" height="360" alt="03-files-uploaded" src="https://github.com/user-attachments/assets/a8a6aa0c-77e4-48ea-90e0-e91d2c301b1b" />
 
----
+
+
+
 
 ## Part 4: Bucket Policy
 
 ### Bucket Policy Applied
 
-**Paste your complete bucket policy here:**
-```json
 {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      
-      
-      
-      
-    }
-  ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::my-static-website-b-l-2026/*"
+        }
+    ]
 }
-```
 
 **Screenshot 4: Bucket Policy Configuration**
-![Bucket Policy](screenshots/04-bucket-policy.png)
+<img width="987" height="331" alt="04-bucket-policy" src="https://github.com/user-attachments/assets/23b1d7ae-3899-4898-a369-74c58f51daa2" />
+
 
 ---
 
