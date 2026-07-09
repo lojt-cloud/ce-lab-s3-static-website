@@ -1,7 +1,7 @@
 # Lab Solution: Host a Static Website on Amazon S3
 
-**Student Name:** ___________________________  
-**Date:** ___________________________  
+**Student Name:** Balint Lojt  
+**Date:** 09/07/2026  
 **Lab Completion Time:** ___________ minutes
 
 ---
@@ -10,9 +10,9 @@
 
 ### Bucket Information
 
-**Bucket Name:** ___________________________
+**Bucket Name: my-static-website-b-l-2026
 
-**Region:** ___________________________
+**Region: us-east-1
 
 **Bucket Website Endpoint URL:**
 ```
@@ -28,13 +28,12 @@ ___________________________________________________________
 
 ### Configuration Details
 
-**Index Document:** ___________________________
+**Index Document:** --index-document index.html
 
-**Error Document:** ___________________________
+**Error Document:** --error-document error.html
 
 **Screenshot 2: Static Website Hosting Settings**
 ![Static Hosting Config](screenshots/02-static-hosting-config.png)
-
 ---
 
 ## Part 3: Website Files
