@@ -224,7 +224,7 @@ No
 
 | Concept | Rating | Notes |
 |---------|--------|-------|
-| S3 bucket creation | 4/5 | |
+| S3 bucket creation | 4/5 | Creating a basic bucket is straightforward, done it via both CLI and Console today|
 | Static website hosting configuration | 3/5 | in CLI I need further practise |
 | Bucket policies and public access | 3/5 |public access makes sense in console, CLI more practise needed|
 | Uploading and managing S3 objects | 4/5 |feels straight forward |
