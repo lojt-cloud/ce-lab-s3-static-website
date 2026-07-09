@@ -87,28 +87,29 @@ N/A
 ### Website Testing
 
 **Website URL (from endpoint):**
-```
-___________________________________________________________
-```
+http://my-static-website-b-l-2026.s3-website-us-east-1.amazonaws.com
 
-**Did the website load successfully?** (Yes/No): ______
+**Did the website load successfully?** 
+Yes
 
-**Did the CSS styling apply correctly?** (Yes/No): ______
+**Did the CSS styling apply correctly?** 
+Yes
 
 **Screenshot 5: Working Website**
-![Website Live](screenshots/05-website-live.png)
+<img width="1923" height="1142" alt="06-website-live" src="https://github.com/user-attachments/assets/3ee55ad2-1a8d-4df8-b61a-d6b68a8ec1f8" />
+
 
 ### Error Page Testing
 
 **Test URL used:**
-```
-___________________________________________________________
-```
+http://my-static-website-b-l-2026.s3-website-us-east-1.amazonaws.com/nonexistent.html
 
-**Did custom error page display?** (Yes/No): ______
+**Did custom error page display?**
+yes
 
 **Screenshot 6: Custom 404 Error Page**
-![Error Page](screenshots/06-error-page.png)
+<img width="1760" height="563" alt="06-error-page" src="https://github.com/user-attachments/assets/0fad89fe-1d94-47d3-8308-2ca524212004" />
+
 
 ---
 
@@ -118,24 +119,30 @@ ___________________________________________________________
 
 ```bash
 # Bucket creation
-
+aws s3api create-bucket \
+  --bucket my-static-website-b-l-2026 \
+  --region us-east-1
 
 # Enable website hosting
-
+Did it from the console :(
 
 # Upload files
 
-
+aws s3 cp . s3://my-static-website-b-l-2026/ --recursive --region eu-north-1
 
 # Apply bucket policy
-
+aws s3api put-bucket-policy \
+  --bucket my-static-website-b-l-2026 \
+  --policy file://bucket-policy.json
 
 # Verify configuration
 
+aws s3 ls s3://my-static-website-b-l-2026/
+aws s3api get-bucket-location --bucket my-static-website-b-l-2026
+curl -i http://my-static-website-b-l-2026.s3-website-us-east-1.amazonaws.com/nonexistent.html
 
-```
 
----
+
 
 ## Bonus Challenges Completed
 
@@ -144,11 +151,7 @@ ___________________________________________________________
 - [ ] Challenge 3: Used `aws s3 sync` command
 
 **Bonus Challenge Notes:**
-```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
+N/A
 
 ---
 
