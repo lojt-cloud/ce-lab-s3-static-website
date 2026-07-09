@@ -2,7 +2,7 @@
 
 **Student Name:** Balint Lojt  
 **Date:** 09/07/2026  
-**Lab Completion Time: 2 hours 10 min
+**Lab Completion Time: 2 hours 30 min
 
 ---
 
@@ -223,14 +223,13 @@ No
 
 | Concept | Rating | Notes |
 |---------|--------|-------|
-| S3 bucket creation | ___/5 | |
-| Static website hosting configuration | ___/5 | |
-| Bucket policies and public access | ___/5 | |
-| Uploading and managing S3 objects | ___/5 | |
-| S3 website endpoints | ___/5 | |
-| HTML/CSS basics | ___/5 | |
+| S3 bucket creation | 4/5 | |
+| Static website hosting configuration | 3/5 | in CLI I need further practise |
+| Bucket policies and public access | 3/5 |public access makes sense in console, CLI more practise needed|
+| Uploading and managing S3 objects | 4/5 |feels straight forward |
+| S3 website endpoints | 2/5 |Got it working and debugged a region-format issue, but don't yet have a solid understanding of the bigger picture |
+| HTML/CSS basics | 1/5 |Just used pre-written files today, haven't written or modified any HTML/CSS myself yet|
 
----
 
 ## Instructor Verification
 
