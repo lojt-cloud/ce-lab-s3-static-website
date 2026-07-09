@@ -34,26 +34,23 @@ ___________________________________________________________
 
 **Screenshot 2: Static Website Hosting Settings**
 
-![Static Hosting Config](screenshots/02-static-hosting-config.png)
----
+<img width="938" height="86" alt="02-static-hosting-config" src="https://github.com/user-attachments/assets/03e4a1c0-56c4-4866-8f24-c40c07714479" />
+
 
 ## Part 3: Website Files
 
 ### Files Created
 
 List the files you created:
-1. ___________________________
-2. ___________________________
-3. ___________________________
+1. index.html
+2. styles.css
+3. error.html
 
-**Did you customize the HTML/CSS?** (Yes/No): ______
+**Did you customize the HTML/CSS?
+No
 
 **If yes, describe your customizations:**
-```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
+N/A
 
 **Screenshot 3: Files Uploaded to S3**
 ![Files in S3](screenshots/03-files-uploaded.png)
