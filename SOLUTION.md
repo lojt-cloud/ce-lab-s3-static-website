@@ -2,7 +2,7 @@
 
 **Student Name:** Balint Lojt  
 **Date:** 09/07/2026  
-**Lab Completion Time:** ___________ minutes
+**Lab Completion Time: 2 hours 10 min
 
 ---
 
@@ -158,56 +158,36 @@ N/A
 ## Reflection Questions
 
 ### 1. What are the advantages of S3 static hosting compared to traditional web servers?
-
-**Your answer:**
-```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
+S3 static hosting is a  money saver because it cuts out the need to run and manage 
+EC2 instances or containers 24/7 just to serve frontend files (HTML/CSS/JS). No need to pay for idle compute time or OS maintenance. Just have to pay for the storage that is in use, and the data transfer.
 
 ### 2. Why is a bucket policy necessary for public website access?
 
-**Your answer:**
-```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
+By default, AWS locks down S3 buckets for security reasons.
+Turning on the static website hosting feature gives an endpoint, 
+but it doesn't automatically grant permission for people to actually read the files. 
+A bucket policy is needed specifically to allow public read access.
 
 ### 3. What are the limitations of S3 static website hosting?
 
-**Your answer:**
-```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
+It can only handle static files (HTML, Css, JS, images), so no server-side code (Python, PHP).
+It is also not secure, so it can only do normal HTTP and not HTTPS (less secure) 
 
 ### 4. When would you NOT use S3 for website hosting?
 
-**Your answer:**
-```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
+If it needs to run backend code. Strict compliance/security requirements.
+
 
 ### 5. How does S3 static hosting fit into cost optimization strategies?
 
-**Your answer:**
-```
-_____________________________________________________________
-_____________________________________________________________
-_____________________________________________________________
-```
+Because it is static, I don't need to pay for EC2 instances or containers 24/7 to serve HTML and JS files.
 
----
+
 
 ## Troubleshooting Log
 
-**Did you encounter any issues?** (Yes/No): ______
+**Did you encounter any issues?
+No
 
 **If yes, document the issues and how you resolved them:**
 
@@ -221,9 +201,9 @@ _____________________________________________________________
 
 ## Cleanup Confirmation
 
-- [ ] Emptied S3 bucket
-- [ ] Deleted S3 bucket
-- [ ] Verified no resources remain
+- [x] Emptied S3 bucket
+- [x] Deleted S3 bucket
+- [x] Verified no resources remain
 
 **Cleanup CLI commands used:**
 ```bash
