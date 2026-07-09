@@ -15,12 +15,13 @@
 **Region: us-east-1
 
 **Bucket Website Endpoint URL:**
-```
-___________________________________________________________
-```
+
+http://my-static-website-b-l-2026.s3-website-us-east-1.amazonaws.com
+
 
 **Screenshot 1: Bucket Creation Confirmation**
-![Bucket Created](screenshots/01-bucket-created.png)
+<img width="1860" height="770" alt="bucket-created" src="https://github.com/user-attachments/assets/c4e17a6c-fe46-482f-80c3-d00daad34af2" />
+
 
 ---
 
