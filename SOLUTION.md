@@ -33,7 +33,8 @@ ___________________________________________________________
 **Error Document:** ___________________________
 
 **Screenshot 2: Static Website Hosting Settings**
-![Static Hosting Config](screenshots/02-static-hosting-config.png)
+<img width="938" height="86" alt="02-static-hosting-config" src="https://github.com/user-attachments/assets/7a90b8e5-ee45-4930-95be-eb98d4e6652e" />
+
 
 ---
 
